@@ -1,0 +1,7 @@
+.r3f-container { position: relative; width: 100%; height: 100%; background: #0a0a0a; color: #e6e6e6; overflow: hidden; }
+.r3f-panel { position: absolute; left: 0; top: 0; padding: 16px; z-index: 10; }
+.r3f-deck { position: absolute; right: 0; top: 0; bottom: 0; width: 320px; overflow: auto; background: rgba(255,255,255,0.03); backdrop-filter: blur(6px); z-index: 10; border-left: 1px solid rgba(255,255,255,0.1); }
+.r3f-card { border-radius: 12px; margin: 16px; padding: 12px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
+.r3f-button { background: #4f46e5; color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 14px; transition: background 0.2s; }
+.r3f-button:hover { background: #4338ca; }
+.r3f-button:disabled { opacity: 0.5; cursor: not-allowed; }
